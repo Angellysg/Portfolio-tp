@@ -1,0 +1,881 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f7ede2;
+    
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 18px;
+}
+
+ /* Css Nav */
+
+header{
+    position: sticky;
+    top: 0;
+    box-shadow:  0px 8px 8px #f9dcc4 ;
+    
+}
+
+.navegator{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 25px 150px;
+    margin: 10px 0px;
+    background-color: #f7ede2;
+}
+
+.menu{
+    margin: 15px;
+    padding: 0px 20px;
+    text-decoration-line: none;
+    font-size: 23px;
+    color: black; 
+}
+
+.menu:hover{
+    color: #bc4749;
+    
+}
+
+.button-contact{
+    background-color: #bc4749;
+    border-radius: 40px;
+    padding: 8px 25px;
+    color: #f7ede2;
+    text-decoration-line: none;
+    font-size: 23px;
+}
+
+.button-contact:hover{
+    background-color:#bc4749d3 ;
+
+}
+
+/* Css Section 1 */
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px;
+    background-color: #f7ede2;
+    
+}
+
+.personal-information{
+    font-size: 20px;  
+}
+
+.hello{
+    font-size: 35px;
+}
+
+.my-name{
+    font-size: 65px;
+    margin: 8px;
+    color: #2C6E49;
+}
+
+.description{
+    margin: 40px 0px;
+}
+
+.button-section1{
+    background-color: #bc4749;
+    border-radius: 40px;
+    color: #f7ede2;
+    text-decoration-line: none;
+    font-size: 23px;
+    padding: 10px 35px;
+    box-shadow:  1px 1px 10px 0px  #bc4749 ;
+    
+}
+
+.buttont-section1:hover{
+    background-color:#bc4749d3;
+
+}
+
+h3{
+    font-size: 45px; 
+}
+
+/* Css Section Skills */
+
+.section2{
+    background-color: #f9dcc4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.skills{
+    margin: 18px 0px;
+}
+
+.container-technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0px;
+    padding: 0px 300px;
+}
+
+.technologies{
+    border-radius: 10px;
+    background-color: #f7ede2;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #bc4749;
+    width: 250px;
+    
+}
+
+.technologies:hover{
+    border: 2px solid #2c6e49;
+}
+
+.fa-html5{
+    font-size: 100px;
+    color: #e54d26;
+
+}
+
+.fa-css3-alt{
+    font-size: 100px;
+    color: #3d8fc6;
+}
+
+.fa-sass{
+    font-size: 100px;
+    color: #cc6699;
+    
+}
+
+.fa-js{
+    font-size: 100px;
+    color: #f0db4f;
+}
+
+.fa-react{
+    font-size: 100px;
+    color: #61dafb;
+}
+
+.fa-git-alt{
+    font-size: 100px;
+    color: #f34f29;
+}
+
+.languages{
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Css Section 3 */
+
+.section3{
+    background-color: #2c6e49;
+    text-align: center;
+    padding: 150px;
+    font-size: 22px;
+}
+
+.phrase{
+    padding: 40px;
+    margin: 40px 0px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.fa-quote-right{
+    font-size: 100px;
+    color: #f7ede2;
+}
+
+/* Css Section Projects */
+
+.section4{
+    background-color: #f7ede2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    padding: 0px 100px;
+    
+}
+
+.go{
+    text-decoration: none;
+}
+
+
+
+.my-projects{
+    border-radius: 10px;
+    background-color: #f7ede2;
+    margin: 10px;
+    padding: 40px 0px;
+    text-align: center;
+    border: 2px solid #bc4749;
+    width: 280px;
+}
+
+.my-projects:hover{
+    border: 2px solid #2c6e49;
+
+}
+
+.myProjects{
+    margin: 18px 0px;
+}
+
+.img-projects{
+    width: 220px;
+}
+
+.name-projects{
+    font-weight: bolder;
+    color: black; 
+}
+
+
+/* Css Section Contact */
+.section5{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: #f9dcc4;
+
+}
+
+.contact{
+    display: flex;
+    border: 1px solid #bc4749;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 100px 0px;
+    width: 70%;
+    background-color: #f7ede2;
+}
+
+.contact-me{
+    margin: 20px;
+    width: 40%;
+}
+
+.p-contact{
+    margin: 20px 0px;
+    display: flex;
+    width: 100%;
+}
+
+.social-media-contact{
+    margin: 40px 0px;
+    width: 60%;
+}
+
+.list-social-media-contact{
+    width: 500px;
+    
+}
+
+
+.link-social-media{
+    text-decoration-line: none;
+    margin: 30px 0px;
+    
+}
+
+
+.icon-contact{
+    color: #2C6E49;
+    font-size: 22px;
+    margin: 18px 0px;
+
+}
+
+
+.s-m{
+    display: inline;
+    color: black;
+    margin: 0px 15px;
+    text-decoration-line: none;
+
+}
+
+
+/* Css Form */
+
+.form-contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 60%;
+} 
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 17px;
+    
+}
+
+label{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    border-radius: 20px;
+    background-color:#f9dcc4;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+input:focus{
+    outline: 10px;
+    box-shadow: 1px 1px 8px 1px  #bc4749;;
+    
+}
+
+.container-name-and-last-name{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.label-name-and-last-name{
+    display: inline;
+    width:100px;
+    padding: 10px 0px;
+
+}
+
+.name-and-last-name{
+    display: block;
+    width: 50%;
+    margin: 0px;
+    
+}
+
+.container-email-and-message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.email{
+    width: 300px;
+    margin: 5px;
+}
+
+.message{
+    margin: 10px 0px;
+}
+
+textarea{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    background-color:#f9dcc4;
+    margin: 10px;
+    padding: 15px 15px 200px;
+    resize: none;
+    border: none;
+}
+
+textarea:focus{
+    outline: 10px;
+    box-shadow: 1px 1px 8px 1px  #bc4749;
+}
+
+
+.label-submit{
+    margin: 10px;
+    background-color: #bc4749;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: #f7ede2;
+}
+
+.label-submit:hover{
+    background-color:#bc4749d3;
+}
+
+/* Css Footer */
+
+footer{
+    background-color: #2c6e49;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.list-nav-footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 10px 0px;  
+}
+
+
+.nav-footer{
+    padding: 15px;
+    text-decoration-line: none;
+    font-size: 16px;
+    color: #f7ede2;
+    margin: 0px 10px;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.list-social-media{
+    width: 70px;
+}
+
+.social-media{
+    padding: 8px;
+    font-size: 23px;
+    border-radius: 100px;
+    background-color: #f7ede2;
+    color: #2c6e49;
+    margin: 10px 15px;
+    width: 28px;
+    border: 1px #2c6e49;
+}
+
+.social-media:hover{
+    background-color:#2c6e49;
+    color:#f7ede2;
+    border: 1px solid #f7ede2;
+}
+
+.fa-linkedin-in{
+    width: 25px;
+
+}
+
+.with-by{
+    margin: 30px 0px 40px 0px;
+}
+
+/* Css Responsive */
+
+@media screen and (max-width: 1060px){
+    body{
+        margin: 0px;
+        padding: 0px;
+
+    } 
+
+    header{
+        display: none;
+    }
+    
+    .section1{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .personal-information{
+        margin-bottom: 80px;
+        
+    }
+
+    .container-technologies{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .section3{
+        padding: 100px 0px;
+    
+    }
+
+    .container-projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        
+
+    }
+
+    .go{
+        padding: 0px;
+    }
+
+    .my-projects{
+        padding: 30px 0px;
+    }
+
+    .section5{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .contact{
+        margin: 10px;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+    .p-contact{
+        display: flex;
+    }
+
+    .contact-me{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0px 5px;
+    }
+
+    .list-social-media-contact{
+        display: flex;
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+
+    }
+
+    .link-social-media{
+        display: flex;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .s-m{
+        font-size: 15px;
+        margin: 0px 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .form-contact{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        margin: 5px;
+    }
+
+    .my-form{
+        display: flex;
+        width: 95%;
+        margin: 0px 5px;
+    }
+
+    label{
+        width: 100%;
+        display: flex;
+    }
+
+
+    .container-name-and-last-name{
+        display: flex;
+        width: 100%;
+    }
+    
+
+    .name-and-last-name{
+        display: flex;
+        width: 100%;
+    }
+    
+    .container-email-and-message{
+        display: flex;
+        width: 100%;
+    }
+    
+
+
+    .email{
+        display: flex;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    
+
+    textarea{
+        margin: 5px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .label-submit{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 690px){
+    body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .personal-information{
+        padding: 0px;
+    }
+
+    .hello{
+        font-size: 28px;
+    }
+
+    .my-name{
+        font-size: 48px;  
+    }
+
+    .description{
+        font-size: 18px;
+        padding: 0px;
+        margin: 30px;
+    }
+
+    .buttont-section1{
+        font-size: 20px;
+    }
+
+    .img-hello{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .container-technologies{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 0px;
+}
+
+    .technologies{
+    flex-wrap: wrap;
+    width: 180px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+    .fa-html5{
+    font-size: 60px;
+    
+
+}
+
+    .fa-css3-alt{
+    font-size: 60px;
+    
+}
+
+    .fa-sass{
+    font-size: 60px;;
+    
+    
+}
+
+    .fa-js{
+    font-size: 60px;
+    
+}
+
+    .fa-react{
+    font-size: 60px;
+    
+}
+
+    .fa-git-alt{
+    font-size: 60px;
+    
+    }
+
+    .section3{
+        padding: 50px 0px;
+    }
+
+    .phrase{
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+
+    .section4{
+        display: flex;
+        width: 100%;
+    }
+
+    .myProjects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+
+    .section5{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .contact{
+        margin: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+    .p-contact{
+        display: flex;
+    }
+
+    .contact-me{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0px 5px;
+    }
+
+    .list-social-media-contact{
+        display: flex;
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+
+    }
+
+    .link-social-media{
+        display: flex;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .s-m{
+        font-size: 15px;
+        margin: 0px 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .form-contact{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        margin: 5px;
+    }
+
+    .my-form{
+        display: flex;
+        width: 95%;
+        margin: 0px 5px;
+    }
+
+    label{
+        width: 100%;
+        display: flex;
+    }
+
+
+    .container-name-and-last-name{
+        display: flex;
+        width: 100%;
+    }
+    
+
+    .name-and-last-name{
+        display: flex;
+        width: 100%;
+    }
+    
+    .container-email-and-message{
+        display: flex;
+        width: 100%;
+    }
+    
+
+
+    .email{
+        display: flex;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    
+
+    textarea{
+        margin: 5px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .label-submit{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 30%;
+    }
+
+
+    .list-nav-footer{
+        display: none;
+    }
+
+}
